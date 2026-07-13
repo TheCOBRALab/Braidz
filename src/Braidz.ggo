@@ -1,10 +1,10 @@
-package "CCJ"
+package "Braidz"
 version "1.0"
 args "--unamed-opts=input"
 
 purpose "Pseudoknotted minimum free energy folding of RNAs"
 
-usage "CCJ [options] [sequence]"
+usage "Braidz [options] [sequence]"
 
 description "Read RNA sequence from stdin or cmdline; predict minimum\nfree energy and optimum structure"
 
