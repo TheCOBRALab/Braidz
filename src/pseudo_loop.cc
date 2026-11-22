@@ -527,7 +527,7 @@ void pseudo_loop::compute_PX(const Index4D &x, MType type){
 		// Hosna, July 11, 2014
 		// To avoid addition of close base pairs we check for the following here
 		if(type == MType::Os){
-			if(x.i()==x.j() && x.k()==x.l()){
+			if(x.i()==x.j() && x.k()==x.l()){ // && x.l()-x.i()+1<4
 				b3=gamma2(x.l(),x.i());
 			}
 		} else if (x.difference(type)>TURN){
@@ -857,6 +857,9 @@ energy_t pseudo_loop::get_e_stP(cand_pos_t i, cand_pos_t j){
 }
 
 energy_t pseudo_loop::get_e_intP(cand_pos_t i, cand_pos_t ip, cand_pos_t jp, cand_pos_t j){
+	if (i+1 == ip && j-1 == jp){ // TODO: do I need something like that or stack is taking care of this?
+		return INF;
+	}
 	energy_t e_int = compute_int(i,j,ip,jp);
 	energy_t energy = lrint(e_intP_penalty * e_int);
 	return energy;

@@ -574,9 +574,9 @@ void pseudo_loop::Trace_POiloop(const Index4D &x, MType type, energy_t e){
 			return;
 		}
 	}
-	cand_pos_t max_d = std::min(j,i+MAXLOOP);
+	cand_pos_t max_d = std::min(type == MType::Os ? j+1 : j,i+MAXLOOP);
 	for(cand_pos_t d= i+1; d<max_d; ++d){
-		cand_pos_t min_dp = std::max(l-MAXLOOP,k);
+		cand_pos_t min_dp = std::max(l-MAXLOOP,type == MType::Os ? k-1 : k);
 		for (cand_pos_t dp=l-1; dp >min_dp; --dp) {
 			if (!(pair[S_[d]][S_[dp]]>0)) continue;
 			tmp = get_e_intP(i,d,dp,l) + PX.get(d,j,k,dp);
