@@ -1,12 +1,63 @@
->Os+Os
-AGUCGUAGCAGUUGACUACUGUUAUGU
-(((([[[[[[[[.))))]]]]]]]]..  -7.06
->Os+R
-CGCGAGGGGCGCGAGGGGCCCCCCCC
-((((.[[[[)))).((((]]]]))))  -10.02
->Os+MreO
-UGGGGAGUUGGCUUGGUCGGGAAGCCAACGGCGCGCUCCCCGCGCGCCGCCUGAUC
-(((((((((((((([[[[[[[)))))))[[[[[[[)))))))]]]]]]]]]]]]]]  -24.87
->LMreR+LreO
-UUAUGCCGGGCUCGCCUCAUCCUGCGGCGUAAUGGGUCACUCCGGCGUGUGGUCUACAGGAUGGACGGGGGGGGUGAGCCCCCCCCGUGUGCCGGA
-(((((((([[[[[[[[[[[[[[[[))))))))[[[[[[[[((((((((]]]]]]]]]]]]]]]]((((((((]]]]]]]])))))))))))))))) -40.75
+>b1:Om+Om
+GCUCAGUCGCACGCGACACAGGAGCCGGCGGCGGCCGUGAGAGCACCGCACCUG
+((((.[[[[((((]]]].[[[[.(((([[[[)))))))).)))).]]]].]]]] (-13.4)
+>b2:Om+Os
+GCACAAGCCGAGGGCACGGCACCCGAAGCCCGUGCAACGGG
+((((..[[[[.((((.]]]].[[[[..))))))))..]]]] (-11.56)
+>b3:Om+LreO
+GAGGAGCAGAAGGGGACUGCAGGCGAACCGCACGCCCCCCAACCUCGCGG
+((((.[[[[..((((.]]]].((((..[[[[.))))))))..))))]]]] (-13.77)
+>b4:Om+MreO
+GUCGGCCCCCUCAGGGCACUGCGCGGGCAGACCAGGAGGACGACCUGGCCGC
+(((([[[[((((.]]]].(((([[[[)))).[[[[)))).))))]]]]]]]] (-14.86)
+>b5:Om+LreR
+GAGCCCUGGAGGCAGGACCCGCGCCCGGGACCUCGCUCGCACAGGCGGUGC
+(((([[[[((((]]]].(((([[[[)))).))))))))((((.]]]])))) (-14.92)
+>b6:Om+MreR
+CAGCAGUGCAGGGGAGCACGAGGGAGCCCCCAGCUGGCUCGCGGACCUCCCGC
+((((.[[[[.((((.]]]][[[[[[[[)))).))))]]]]((((.]]]])))) (-15.37)
+>b7:Om+R
+CGGCAAGGGCAGCGGAGCCCACCCCACCGCAGCCGCCCGAGGGGAACGGG
+((((..[[[[.((((.]]]].[[[[.)))).))))((((.]]]]..)))) (-15.57)
+>b8:Os+Om
+GGUCAGGGGAAGGCGAGACGCGCCAGACCACGUCACCCC
+[[[[.((((..[[[[.((((]]]].]]]].)))).)))) (-10.16)
+>b9:Os+Os
+GGCGAACCCCACGCCAGGGG
+((((..[[[[.)))).]]]] (-7.17)
+>b10:Os+MreO
+CGGGAGCCGAGGGGAACGGCCCACAACCCGAAGUGGACCCC
+[[[[.[[[[.((((..]]]]((((..]]]]..)))).)))) (-11.56)
+>b11:Os+MreR
+CCGCACCCCAGACGAGCGGCGUCAGCCCGGGGGGGC
+[[[[.((((.((((.]]]])))).[[[[))))]]]] (-11.77)
+>b12:Os+R
+CGCCACGGGAGGCGACGGCACCCGGCCG
+[[[[.((((.]]]].[[[[.))))]]]] (-9.33)
+>b13:LreO+Om
+GCCCAGCACAGGGCACCCGAGACCAAGGGGAGGUCAGUGCACCCCCGGG
+[[[[.((((.]]]].[[[[.((((..[[[[.)))).)))).]]]]]]]] (-14)
+>b14:LreO+LreO
+GGCGAGGGGCGCCAGCGGAGGGCCCGCACCCCAGCCC
+[[[[.((((]]]].((((.[[[[)))).)))).]]]] (-13.14)
+>b15:LreO+MreO
+GGCGACCCGACGCCAGCCGAGCUCAACGGCAGUGCACGGGGCACAAGAGC
+[[[[.((((.]]]].((((.[[[[..)))).[[[[.))))]]]]..]]]] (-13)
+>b16:LMreR+Om
+GGUCGCGGCUGGAGACCCGCCAGAGGGGGGCCUCACCAGGUGCACCGCGCACACCCCAGGCG
+(((([[[[[[[[.))))((((.[[[[((((]]]].]]]]((((.]]]])))).)))).)))) (-17.84)
+>b17:LMreR+LreO
+CCGCAGGUCGAGCGCGGGCCGGGGGCGGCGCUCAGCCCGACCGGGCACCCC
+[[[[.((((((((]]]](((([[[[)))))))).[[[[))))]]]].]]]] (-17.2)
+>b18:LMreR+MreO
+GGGGGCUCAGCUGCCCCAGCCGGAGGCGGCCCACCAGCGACCAGAGCGGUCAGUGGCCUC
+[[[[((((.((((]]]].(((([[[[))))[[[[))))[[[[.))))]]]].]]]]]]]] (-17.3)
+>b19:LMorO+LreR
+GGCGACGGGCGCCAGACCACCUGAGGUCCCCGAGCGGACAGGACCGC
+[[[[.((((]]]].((((.[[[[.)))))))).((((.]]]].)))) (-13.18)
+>b20:LMorO+MreR
+GUGCAGCCCGCACAAGAGGACUGGGGGCAACCAGAACGCCCCUCAAGGCG
+((((.[[[[))))..((((.((((]]]]..))))..[[[[))))..]]]] (-13)
+>b21:LMorO+R
+CGCCCUGGAAGGCGAACGGCACCAGAGGAGAGCCGACUCC
+[[[[((((..]]]]..[[[[.)))).((((.]]]].)))) (-10.59)
